@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w1</title><link href="./" rel="alternate"></link><link href="./feeds/w1.atom.xml" rel="self"></link><id>./</id><updated>2024-02-29T18:30:46+08:00</updated><entry><title>2024 Spring 課程 第一周</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-23T20:00:00+08:00</published><updated>2024-02-29T18:30:46+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-02-23:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 如何建立倉儲和利用 import 至 Replit進行改版、設定網誌與Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w1</title><link href="./" rel="alternate"></link><link href="./feeds/w1.atom.xml" rel="self"></link><id>./</id><updated>2024-03-03T15:22:19+08:00</updated><entry><title>2024 Spring 課程 第一周</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-23T20:00:00+08:00</published><updated>2024-03-03T15:22:19+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-02-23:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 如何建立倉儲和利用 import 至 Replit進行改版、設定網誌與Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 如何建立倉儲和利用 import 至 Replit進行改版、設定網誌與Odoo PLM 在機械設計流程中的應用.&lt;/p&gt;
 
 
@@ -10,7 +10,9 @@
 &lt;h1&gt;import 完如何進行改版&lt;/h1&gt;
 &lt;p&gt;import 完會有 Webview 跑出來這就是自己的動態網站 (由這可增加或修改內容) , 點進去後打 admin 就可增加 (也就是改版) 你所要的內容, 當你打完你要的內容後右上角有個 Convert 點一下轉為靜態 (這要點, 不然你從動態推到靜態會沒有東西) , 到 Replit 的 Git 中輸入新增的內容後 Push , 等待一下就可以在靜態看到剛剛增加的內容.&lt;/p&gt;
 &lt;h1&gt;建立網誌&lt;/h1&gt;
+&lt;p&gt;我們所使用的網誌系統 (Pelican) , markdown 目錄是一個原始檔 (撰寫網誌範本) , 新增完的內容轉換後會位於在 blog 下的目錄. 將 markdown 網誌轉為網誌的指令為: pelican markdown -o blog -s local_publishconf.py 表示使用了 local_publishconfig.py 設定, 其餘與 blog 有關設定檔有: pelicanconf.py (更改網誌名稱) 與 publishconf.py (增加靜態連結) 等, 在設定網誌同時要依據自己的 github 帳號對上述三個.py 去做設定動作. &lt;/p&gt;
 &lt;h1&gt;Odoo PLM 功能&lt;/h1&gt;
+&lt;p&gt;畢竟這個程式這學期才用, 當然帳號是以學號加上 nfu.edu.tw 去建立的, 期中和期末個做一樣模擬出來, 要新增一個產品網頁 (已建立) , 依模擬產品去分配給組員做 (會收到 emlig 的訊息) 回傳至 odoo PLM 裡&lt;/p&gt;
 &lt;h1&gt;以上為第一周內容&lt;/h1&gt;
 &lt;h1&gt;內容管理系統&lt;/h1&gt;
 &lt;p&gt;使用者可以自行利用 &lt;a href="https://github.com/mdecycu/cmsimde_site"&gt;cmsimde_site&lt;/a&gt; 倉儲作為 Template, 建立自己的網站內容管理系統.&lt;/p&gt;
