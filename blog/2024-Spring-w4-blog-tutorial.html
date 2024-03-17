@@ -7,25 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>41123141協同產生設計實習 - Articles by Jun</title>
+  <title>2024 Spring 課程 第四週</title>
 
 
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-  <link href="../" rel="canonical" />
+  <link href="./" rel="canonical" />
 
   <!-- Feed -->
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="41123141協同產生設計實習 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="41123141協同產生設計實習 Categories Atom Feed" />
 
-  <link href="../theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
   <!-- Code highlight color scheme -->
-      <link href="../theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
+      <link href="./theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
 
   
-    <link href="../theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
 
   <!-- Custom fonts -->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
@@ -39,27 +40,49 @@
   <![endif]-->
 
 
+    <link href="./2024-Spring-w4-blog-tutorial.html" rel="canonical" />
+
+        <meta name="description" content="2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.">
+
+        <meta name="author" content="Jun">
+
+        <meta name="tags" content="網誌撰寫">
+
+
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="41123141協同產生設計實習"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="41123141協同產生設計實習"/>
-<meta property="og:description" content="View the blog."/>
+<meta property="og:title" content="2024 Spring 課程 第四週"/>
+<meta property="og:description" content="2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="../"/>
-<meta property="og:image" content="../theme/images/home-bg.jpg">
+<meta property="og:url" content="./2024-Spring-w4-blog-tutorial.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2024-03-16 20:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-03-17 12:37:55.375964+08:00"/>
+<meta property="article:author" content="./author/jun.html">
+<meta property="article:section" content="w4"/>
+<meta property="article:tag" content="網誌撰寫"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
 
 <script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "Website",
-  "name": " 41123141協同產生設計實習 ",
-  "url" : "../",
-  "image": "../theme/images/home-bg.jpg",
-  "description": "View the blog."
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "2024 Spring 課程 第四週",
+  "headline": "2024 Spring 課程 第四週",
+  "datePublished": "2024-03-16 20:00:00+08:00",
+  "dateModified": "2024-03-17 12:37:55.375964+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "Jun",
+    "url": "./author/jun.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./2024-Spring-w4-blog-tutorial.html",
+  "description": "2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業."
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -150,144 +173,105 @@ init_mathjax();
     <ul>
     <!--
 
-              <li role="presentation"><a href="../pages/about/">About</a></li>
+              <li role="presentation"><a href="./pages/about/">About</a></li>
       -->
 
-            <li><a href="../pages/about/index.html">About</span></a></li>
+            <li><a href="./pages/about/index.html">About</span></a></li>
             
-            <li><a href="../archives.html">Archives</span></a></li>
+            <li><a href="./archives.html">Archives</span></a></li>
             
-            <li><a href="../categories.html">Categories</span></a></li>
+            <li><a href="./categories.html">Categories</span></a></li>
             
-            <li><a href="../tags.html">Tags</span></a></li>
+            <li><a href="./tags.html">Tags</span></a></li>
 
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
-                <a class="home-button" href="../" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
             </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-            <div class="post-cover cover" style="background-image: url('../theme/images/post-bg.jpg')">
+        <h1 class="post-title">2024 Spring 課程 第四週</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/jun.html">Jun</a>
+            | <time datetime="Sat 16 March 2024">Sat 16 March 2024</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on Sun 17 March 2024</span>
+            <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
-
-
 
   <section id="wrapper">
     <a class="hidden-close"></a>
 
 <section class="search">
-      <form class="navbar-search" action="../search.html">
+      <form class="navbar-search" action="./search.html">
       <input type="text"  placeholder="Search" name="q" id="tipue_search_input" required>
     </form>
 </section>
 
 
-<div id="index" class="container">
-  <main class="content" role="main">
-    <div class="extra-pagination">
-<nav class="pagination" role="pagination">
-  <div class="inner">
-    <span class="pagination-info">Page 1 / 1</span>
-    <div class="clear"></div>
-  </div>
-</nav>
-    </div>
-
+    <!-- Post content -->
+    <main class="content" role="main">
         <article class="post">
         <div class="inner">
-            <header class="post-header">         
-                <h2 class="post-title"><a href="../2024-Spring-w4-blog-tutorial.html" rel="bookmark" title="Permalink to 2024 Spring 課程 第四週">2024 Spring 課程 第四週</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/jun.html">Jun</a>
-                     | <time datetime="Sat 16 March 2024">Sat 16 March 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        <p>2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.</p>
+            <section class="post-content">
+                <p>2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.</p>
 
-                    </p>
+
+<h1>分組任務</h1>
+<p>教學影片分組整理並自評:
+* 在影片上填上字幕, 另行上傳到可以嵌入到各分組的網站上
+* 從影片字幕中整理出逐字稿, 放在影片下方, 以 .txt 連結安排
+* 並在各嵌入的教學影片下方, 以摘要方式說明該影片的教學重點</p>
+<h1>Github 個人與分組倉儲的維護方式</h1>
+<p>個人的倉儲名稱為 cd2024, 而期中的分組倉儲位於 mdecd2024 帳號下, 以2a 開頭, 加上 "-" 之後再補上 midag + 組別, 且各組員的 cd2024 個人倉儲必須設為各分組倉儲的子模組, 目的在各組員可以自行管理並維護自己的課程倉儲, 並決定要引入分組倉儲的內容版次.
+* 方法一 - Replit
+* 方法二 - Codespaces
+* 方法三 - Gitpod
+* 方法四 - localhost</p>
+<h1>以上為第四周內容</h1>
+            </section>
+
+            <section class="post-info">
+                <aside class="post-tags">
+<a href="./tag/wang-zhi-zhuan-xie.html">網誌撰寫</a>                </aside>
+
+                <div class="clear"></div>
+
+
                 </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-prev" href="./2024-Spring-w3-blog-tutorial.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-right"></i>
+                                <h2 class="post-nav-title">2024 Spring 課程 第三週</h2>
+                            <p class="post-nav-excerpt">2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入...</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
             </div>
         </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">         
-                <h2 class="post-title"><a href="../2024-Spring-w3-blog-tutorial.html" rel="bookmark" title="Permalink to 2024 Spring 課程 第三週">2024 Spring 課程 第三週</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/jun.html">Jun</a>
-                     | <time datetime="Sat 09 March 2024">Sat 09 March 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        <p>2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.</p>
-
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">         
-                <h2 class="post-title"><a href="../2024-Spring-w2-blog-tutorial.html" rel="bookmark" title="Permalink to 2024 Spring 課程 第二週">2024 Spring 課程 第二週</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/jun.html">Jun</a>
-                     | <time datetime="Sat 02 March 2024">Sat 02 March 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        <p>2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.</p>
-
-                    </p>
-                </section>
-            </div>
-        </article>
-        <article class="post">
-        <div class="inner">
-            <header class="post-header">         
-                <h2 class="post-title"><a href="../2024-Spring-w1-blog-tutorial.html" rel="bookmark" title="Permalink to 2024 Spring 課程 第一週">2024 Spring 課程 第一週</a>
-                </h2>
-                <span class="post-meta">
-                        <a href="../author/jun.html">Jun</a>
-                     | <time datetime="Sat 24 February 2024">Sat 24 February 2024</time>
-                </span>
-                <div class="clear"></div>
-            </header>
-                <section class="post-excerpt">
-                    <p>
-                        <p>2024 Spring 協同產品設計實習課程教導, 如何建立倉儲和利用 import 至 Replit進行改版、設定網誌與Odoo PLM 在機械設計流程中的應用.</p>
-
-                    </p>
-                </section>
-            </div>
-        </article>
-
-<nav class="pagination" role="pagination">
-  <div class="inner">
-    <span class="pagination-info">Page 1 / 1</span>
-    <div class="clear"></div>
-  </div>
-</nav>
-  </main>
-</div>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
@@ -303,7 +287,7 @@ init_mathjax();
     </footer>
   </section>
   
-  <script type="text/javascript" src="../theme/js/script.js"></script>
+  <script type="text/javascript" src="./theme/js/script.js"></script>
 
  
 

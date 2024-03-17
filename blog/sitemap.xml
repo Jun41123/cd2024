@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-03-17T12:19:19-00:00</lastmod>
+<lastmod>2024-03-17T12:38:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-03-17T12:19:19-00:00</lastmod>
+<lastmod>2024-03-17T12:38:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-03-17T12:19:19-00:00</lastmod>
+<lastmod>2024-03-17T12:38:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-03-17T12:19:19-00:00</lastmod>
+<lastmod>2024-03-17T12:38:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,8 +39,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./2024-Spring-w4-blog-tutorial.html</loc>
+<lastmod>2024-03-17T12:37:55+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./2024-Spring-w3-blog-tutorial.html</loc>
-<lastmod>2024-03-17T12:19:01+08:00</lastmod>
+<lastmod>2024-03-17T12:27:15+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -75,28 +82,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/w3.html</loc>
-<lastmod>2024-03-17T12:19:01+08:06</lastmod>
+<lastmod>2024-03-17T12:27:15+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/fen-zu.html</loc>
-<lastmod>2024-03-17T12:19:01+08:06</lastmod>
+<loc>./category/w4.html</loc>
+<lastmod>2024-03-17T12:37:55+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/wang-zhi-zhuan-xie.html</loc>
-<lastmod>2024-03-08T07:18:43+08:06</lastmod>
+<lastmod>2024-03-17T12:37:55+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/fen-zu.html</loc>
+<lastmod>2024-03-17T12:27:15+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/jun.html</loc>
-<lastmod>2024-03-17T12:19:01+08:06</lastmod>
+<lastmod>2024-03-17T12:37:55+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
