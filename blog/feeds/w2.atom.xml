@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w2</title><link href="./" rel="alternate"></link><link href="./feeds/w2.atom.xml" rel="self"></link><id>./</id><updated>2024-03-11T16:30:02+08:00</updated><entry><title>2024 Spring 課程 第二週</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-03-02T20:00:00+08:00</published><updated>2024-03-11T16:30:02+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-03-02:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w2</title><link href="./" rel="alternate"></link><link href="./feeds/w2.atom.xml" rel="self"></link><id>./</id><updated>2024-03-17T11:55:30+08:00</updated><entry><title>2024 Spring 課程 第二週</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-03-02T20:00:00+08:00</published><updated>2024-03-17T11:55:30+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-03-02:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要利用 Github Classroom 進行協同分組, 並引導學員除了 Replit, 可以利用 Github Codespaces 維護個人或分組網站內容.&lt;/p&gt;
 
 
@@ -8,13 +8,9 @@
 &lt;h1&gt;利用 Codespaces 維護倉儲與網站&lt;/h1&gt;
 &lt;p&gt;利用 init_replit 指令安裝所需 Python 模組&lt;/p&gt;
 &lt;p&gt;啟動動態 指令
-chmod u+x init_replit
-./init_replit
-Python3 main.py&lt;/p&gt;
+1.chmod u+x init_replit  2. ./init_replit  3. Python3 main.py&lt;/p&gt;
 &lt;p&gt;靜態 指令
 Python3 -m http.server&lt;/p&gt;
 &lt;p&gt;Push 指令
-git add .
-git commit -m " add+你要推的內容 "
-git push&lt;/p&gt;
+1.git add .  2. git commit -m " add+你要推的內容 "  3. git push&lt;/p&gt;
 &lt;h1&gt;以上為第二周內容&lt;/h1&gt;</content><category term="w2"></category><category term="分組"></category></entry></feed>
