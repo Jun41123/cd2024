@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-03-29T06:55:12+08:00</updated><entry><title>2024 Spring 課程 w5</title><link href="./41123141_w5.html" rel="alternate"></link><published>2024-03-22T20:00:00+08:00</published><updated>2024-03-29T06:54:48+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-03-22:./41123141_w5.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 教學內容為先前影片整理、分組網誌的統整.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-05T20:00:00+08:00</updated><entry><title>2024 Spring 課程 w7</title><link href="./41123141_w7.html" rel="alternate"></link><published>2024-04-05T20:00:00+08:00</published><updated>2024-04-01T16:04:20+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-04-05:./41123141_w7.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, w1-w6內容統整&lt;/p&gt;
+
+
+&lt;h1&gt;w1-w6內容統整&lt;/h1&gt;
+&lt;p&gt;老師所講的內容統整.&lt;/p&gt;</content><category term="w7"></category><category term="網誌撰寫"></category></entry><entry><title>2024 Spring 課程 w6</title><link href="./41123141_w6.html" rel="alternate"></link><published>2024-03-29T20:00:00+08:00</published><updated>2024-04-01T15:40:02+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-03-29:./41123141_w6.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 分組網誌的統整、 Github Actions 帶有子模組的 main.yml 設定.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 分組網誌的統整、 Github Actions 帶有子模組的 main.yml 設定.&lt;/p&gt;
+
+
+&lt;h1&gt;Github Actions 帶有子模組的 main.yml 設定&lt;/h1&gt;
+&lt;p&gt;我們所寫的內容丟到個人倉儲, 加上我們有把自己的子模組倒入分組倉儲, 加入取子模組內容的 main.yml 設定把我們所寫的內容整合起來.&lt;/p&gt;
+&lt;p&gt;其中加入取子模組內容的設定為:
+範例:2b-midbg4 cd_report.tex 中的範例報告第一章, 取自其組員分組網站中的 latex 目錄, 且圖片檔案也是沿用分組倉儲中的設定, 取自組員 images 目錄.&lt;/p&gt;
+&lt;h1&gt;網誌的統整&lt;/h1&gt;
+&lt;p&gt;如何把每個人的網誌整合到分組倉儲內, 整合前先把每個人子模組所連到的倉儲更新到現在狀態, 再利用 pelicanconf py 整合各組員的網誌.&lt;/p&gt;</content><category term="w6"></category><category term="網誌撰寫"></category></entry><entry><title>2024 Spring 課程 w5</title><link href="./41123141_w5.html" rel="alternate"></link><published>2024-03-22T20:00:00+08:00</published><updated>2024-03-29T06:54:48+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-03-22:./41123141_w5.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 教學內容為先前影片整理、分組網誌的統整.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 教學內容為先前影片整理、分組網誌的統整.&lt;/p&gt;
 
 
@@ -16,7 +30,7 @@
 &lt;p&gt;過程中, 各組員必須將個別的網誌 .md 檔案名稱前加上字串(不然資料會亂), 例如: "學號_" 加上獨一無二的網誌 Slug 字串名稱, 且 Category 使用學號作為標示. 之後各組統整轉檔時, 才不至於發生相同網誌文章檔案名稱衝突的錯誤, 且從各分組網誌的 Categories 中即可找到各組員所編寫的所有網誌內容.&lt;/p&gt;
 &lt;h1&gt;利用 NX1872 協同繪製零組件&lt;/h1&gt;
 &lt;p&gt;老師所提供 NX 套件目錄檔案, 之後將 NX1872 目錄存入隨身碟後, 可利用下列 start_USB_nx1872.bat 啟動.
-(電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12)&lt;/p&gt;</content><category term="w5"></category><category term="網誌撰寫"></category></entry><entry><title>2024 Spring 課程 w4</title><link href="./41123141_w4.html" rel="alternate"></link><published>2024-03-16T20:00:00+08:00</published><updated>2024-03-29T06:52:25+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-03-16:./41123141_w4.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.&lt;/p&gt;
+(電腦輔助設計室中 C: 安裝 NX1872, D: 則配置 NX2206 與 NX12)&lt;/p&gt;</content><category term="w5"></category><category term="網誌撰寫"></category></entry><entry><title>2024 Spring 課程 w4</title><link href="./41123141_w4.html" rel="alternate"></link><published>2024-03-15T20:00:00+08:00</published><updated>2024-04-01T13:05:58+08:00</updated><author><name>Jun</name></author><id>tag:None,2024-03-15:./41123141_w4.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 各分組需要明確界定任務需求與分工時序, 隨著各組協同設計流程的進行, 分組倉儲與網站的改版越發複雜, 此時可導入 SourceTree 協助各組員更清楚看到倉儲改版歷程, 與本週分組作業.&lt;/p&gt;
 
 
