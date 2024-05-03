@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w8</title><link href="./" rel="alternate"></link><link href="./feeds/w8.atom.xml" rel="self"></link><id>./</id><updated>2024-04-26T05:40:04+08:00</updated><entry><title>2024 Spring 課程 w8</title><link href="./41123141_w8.html" rel="alternate"></link><published>2024-04-12T20:00:00+08:00</published><updated>2024-04-26T05:40:04+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-04-12:./41123141_w8.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 協同設計的架構上, 個人與分組的倉儲中.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w8</title><link href="./" rel="alternate"></link><link href="./feeds/w8.atom.xml" rel="self"></link><id>./</id><updated>2024-05-03T09:03:01+08:00</updated><entry><title>2024 Spring 課程 w8</title><link href="./41123141_w8.html" rel="alternate"></link><published>2024-04-12T20:00:00+08:00</published><updated>2024-05-03T09:03:01+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-04-12:./41123141_w8.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 協同設計的架構上, 個人與分組的倉儲中.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 協同設計的架構上, 個人與分組的倉儲中.&lt;/p&gt;
 
 
 &lt;h1&gt;協同上需要的內容&lt;/h1&gt;
 &lt;p&gt;從協同設計的架構上, 個人與分組的倉儲中, 總共設計了以下幾種內容的協同模式:&lt;/p&gt;
-&lt;p&gt;1.分組網站內容的協同
- 2.分組報告內容的協同
- 3.分組產品設計的 PLM 協同
- 4.分組零組件設計的協同
- 5.分組模擬場景設計的協同
- 6.分組專案簡報設計的協同&lt;/p&gt;</content><category term="w8"></category><category term="網誌撰寫"></category></entry></feed>
+&lt;p&gt;1.分組網站內容的協同: 網站內容與網誌內容, 可以在上面新增內容, 比如說上課所講到的是. 先前所用的子模組可透過 Python 程式方法整合各學員子模組的網誌內容, 統整一起. &lt;/p&gt;
+&lt;p&gt;2.分組報告內容的協同: 採用 girhub actions 與 miktex 整合起來. &lt;/p&gt;
+&lt;p&gt;3.分組產品設計的 PLM 協同: 利用 odoo, 讓各分組可以將網站內容、報告內容視為產品, 從協同架構的訂定作為起點, 完成資料展示作為終點, 逐一將過程的協調、派任與執行方法納入 PLM 系統管理.&lt;/p&gt;
+&lt;p&gt;4.分組零組件設計的協同: 利用 NX1876, 進行這學期我們要畫的零件, 並將各零件的 .prt 檔案納入各學員的倉儲進行組立, 以便找出最佳的設計分工以及零組件轉檔流程.&lt;/p&gt;
+&lt;p&gt;5.分組模擬場景設計的協同: 利用 NX1876 畫完的完成圖, 導入一個平台(CoppeliaSim), 加入感測器 (Sensors)、致動器 (Actuators) 以及 ZMQ RemoteAPI Python程式, 找到合用或最佳的協同產品設計模式.&lt;/p&gt;
+&lt;p&gt;6.分組專案簡報設計的協同: 在上述各產品設計階段所累積的各種資料, 該如何有效整合到專案完成後必須進行的網際簡報中.&lt;/p&gt;</content><category term="w8"></category><category term="網誌撰寫"></category></entry></feed>
