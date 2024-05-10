@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w11</title><link href="./" rel="alternate"></link><link href="./feeds/w11.atom.xml" rel="self"></link><id>./</id><updated>2024-05-03T20:00:00+08:00</updated><entry><title>2024 Spring 課程 w11</title><link href="./41123141_w11.html" rel="alternate"></link><published>2024-05-03T20:00:00+08:00</published><updated>2024-05-03T09:04:54+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-05-03:./41123141_w11.html</id><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導.&lt;/p&gt;
-</content><category term="w11"></category><category term="網誌撰寫"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w11</title><link href="./" rel="alternate"></link><link href="./feeds/w11.atom.xml" rel="self"></link><id>./</id><updated>2024-05-10T06:22:08+08:00</updated><entry><title>2024 Spring 課程 w11</title><link href="./41123141_w11.html" rel="alternate"></link><published>2024-05-03T20:00:00+08:00</published><updated>2024-05-10T06:22:08+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-05-03:./41123141_w11.html</id><summary type="html">&lt;p&gt;2024 Spring 利用上週加入的全班倉儲,在裡面編寫前10週之統整心得,以每組為例.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 利用上週加入的全班倉儲,在裡面編寫前10週之統整心得,以每組為例.&lt;/p&gt;
+
+
+&lt;h1&gt;利用上週加入的全班倉儲,在裡面編寫前10週之統整心得,以每組為例&lt;/h1&gt;
+&lt;p&gt;因為每個人都有權限可在上面改版, 這樣就會出現一個問題就是說, 在 push 得時候只能一個人推, 如果全部人一起推會導致出現亂碼, 我們所打的東西都會亂跑, 這時就有一個方法可以解決這個問題預防此問題產生, 就是在個人或各組完成階段性改版之前, 先透過獨立分支進行資料改版提交與推送, 等個人階段性版本確定後, 再與分組分支合併, 最後各組的階段性版本再與建立網頁的主分支進行合併.&lt;/p&gt;</content><category term="w11"></category><category term="網誌撰寫"></category></entry></feed>
