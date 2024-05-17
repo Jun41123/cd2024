@@ -44,8 +44,11 @@
 <p><span>* <em>git commit -m "update 學號 子模組"</em></span></p>
 <p><span>* git push</span></p>
 <h1>作業區</h1>
-<h2>W10 協同問題</h2>
+<h2>W12相關任務</h2>
+<h3>任務1 NX零件四</h3><h2>W10 協同問題</h2>
 <h3>任務一</h3>
+<p>根據老師所給的 2a.txt 裡的['學號', 'Github 帳號', '組別'], 以下是利用 Python 寫的初步資料數列. </p>
+<p></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import window, ajax
   
 def fetch_csv_data():
@@ -89,9 +92,11 @@ def fetch_csv_data():
   
 # 呼叫函式讀取 CSV 資料
 fetch_csv_data()</pre>
-<p><br/><br/></p>
-<p>....</p>
 <p></p>
+<p></p>
+<p><span>只要透過 for 重複迴圈, 就可以從上列資料中每位學員的基本資料 (學號、Github 帳號與組別) 中直接在網頁建立所需的 html.</span></p>
+<p><span>並列出-學員倉儲連結/學員網站連結/2a 分組倉儲連結 template: https://github.com/mdecd2024/2a-midag組別</span></p>
+<p><span>下列程式碼是加上了生成 HTML 元素的程式碼，以及學員倉庫連結和網站連結的模板：</span></p>
 <pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import window, ajax, document, html
   
 def fetch_csv_data():
@@ -155,7 +160,8 @@ def generate_html(data):
 # 呼叫函式讀取 CSV 資料
 fetch_csv_data()
 </pre>
-<p><br/><br/><br/></p><h3>任務三</h3>
+<p><br/><br/><br/></p>
+<p><span>這段程式碼會從 CSV 檔案中讀取學員的基本資料（學號、GitHub 帳號、組別），然後使用 </span><code>for</code><span> 迴圈生成 HTML 元素，並將這些元素插入到網頁中。你可以根據需要修改 </span><code>generate_html</code><span> 函式中的 HTML 元素結構，以符合你的需求。</span></p><h3>任務三</h3>
 <h3>任務二</h3>
 <p>文章一  : <span>Construction and theoretical study of a ball balancing platform (構建一個球體平衡平台涉及到平台本身的物理結構建造以及用於維持球體平衡的控制算法的理論研究)</span></p>
 <p><span>摘要內容 : </span><span>通過實施自動控制理論穩定動態系統時的局限性, </span><span>球平衡平臺的構造和理論研究, 通過實施穩定動態系統時的局限性自動控制理論. 通過物理構造的裝置作為理論的演示者, 進一步比較從牛頓力學得出的事實物理和計算機模擬結果. 為了能夠進行比較, 有必要設計一個能夠滿足系統要求的令人滿意的控制器. 在設備和控制方面, 為在平臺上平衡球的系統引入比例積分導數控制器. 進一步允許分析以確定穩定自然不穩定或半穩定系統時的局限性. 建立球體平衡平台的理論模型, 並與實際搭建的平台進行比較. 分析理論與實際結果之間的差異, 探討控制理論與系統實施的挑戰.</span></p>
@@ -245,7 +251,7 @@ fetch_csv_data()
 <p dir="auto" style="padding-left: 30px;">for cmsimde: pip install flask flask_cors bs4 lxml pelican markdown gevent</p>
 <p dir="auto">password generator: <a href="https://mde.tw/cmsite/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/b92b16621dd0246c352cf13d6463b333/raw/0bfa669750aba3abe48554509bbd43d65b6e5c82/hashlib_password_generator.py">https://mde.tw/cmsite/content/Brython.html?src=https://gist.githubusercontent.com/mdecycu/b92b16621dd0246c352cf13d6463b333/raw/0bfa669750aba3abe48554509bbd43d65b6e5c82/hashlib_password_generator.py</a> </p>
 <p dir="auto"></p>
-<p dir="auto">for IPv6 only Ubuntu:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.com<br/>ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p<br><br/>for Replit:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.co<br/>#since Replit works for IPv4, therefore no ProxyCommand setting needed<br/>#ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</br></p>
+<p dir="auto">for IPv6 only Ubuntu:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.com<br/>ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p<br/><br/>for Replit:<br/><br/>.ssh 目錄中的 config, 將 SSH session 名稱設為 github.com:<br/><br/>Host github.com<br/>User git<br/>Hostname github.co<br/>#since Replit works for IPv4, therefore no ProxyCommand setting needed<br/>#ProxyCommand /usr/bin/ncat --proxy p4.cycu.org:3128 --proxy-type http %h %p</p>
 <p></p>
 <p></p>
 <h1>Brython</h1>
