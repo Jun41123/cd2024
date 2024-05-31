@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w14</title><link href="./" rel="alternate"></link><link href="./feeds/w14.atom.xml" rel="self"></link><id>./</id><updated>2024-05-31T07:05:21+08:00</updated><entry><title>2024 Spring 課程 w13</title><link href="./41123141_w14.html" rel="alternate"></link><published>2024-05-24T20:00:00+08:00</published><updated>2024-05-31T07:05:21+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-05-24:./41123141_w14.html</id><summary type="html">&lt;p&gt;2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件&lt;/p&gt;
+
+
+&lt;h1&gt;模擬場景建構&lt;/h1&gt;
+&lt;p&gt;因為 Solvespace 內建的 Export Scale Factor 為 1:1=mm, 表示 STL 中 export 的數字為 mm, 因此若將 Solvespace 中 120mmx120mm 的 STL 平台, 以 1:1 直接 import 進入 CoppeliaSim, 將會得到 120mx120m 的龐然大物. 若採 Auto Scale (此處會將 120 縮小 100 倍, 也就是採 0.01 作為 Scale) import 進入 CoppeliaSim, 則會採 cm 作為單位, 得到一組 120cmx120cm 的鋼球平衡台.
+至於進入場景後的座標, 以 Solvespace 中的零件繪圖, 其 Y 軸向上, 因此在導入 CoppeliaSim 時, 必須選擇 Y 軸向上.
+若採 Siemens NX 進行零組件繪圖的轉入考量, 與上述 Solvespace 零組件相同.&lt;/p&gt;
+&lt;h1&gt;利用零件 Hole 產生對應 Cylinder 元件&lt;/h1&gt;
+&lt;p&gt;利用夠深的零件孔壁中的各節點, 可以在 Shape Editor 模式下建立 Cylinder 元件, 其步驟如下:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;選擇帶有 Hole (可能必須夠深) 的零件.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用 CoppeliaSim 左側的 Shape Editor 按鈕, 將場景轉換為 Shape Editor 模式.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用滑鼠中鍵滑動, 將場景正對所要生成 Cylinder 元件的孔位置, 然後利用滑鼠中間的滾輪將孔儘量拉近.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用滑鼠左鍵將 Shape Editor 出現的內建視窗, 從 Triangle edit mode, 轉為 Vertex edit mode, 然後左手按住 Shift, 右手滑鼠左鍵按下後, 從左上至&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;右下的位置涵蓋整個孔的位置.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;將 Shape Editor 模式的 Vertex edit mode 切回 Triangle edit mode, 然後利用 Extract Clinder 功能, 針對上列步驟所選到的 Vertex(圓孔的內壁點座標) 作為依據, 建立一個圓柱體 (Cylinder) 元件.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;關閉 Shape Editor 內建表單視窗後, 選擇 Yes 或 No 都可完成上述從孔的內壁點座標生成圓柱體的步驟.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;在 CoppeliaSim Divide 組立件&lt;/h1&gt;
+&lt;p&gt;由於 CoppeliaSim 4.5.1 rev4 當採 STL 組立件轉入場景後, 其組立件為一體, 也就是全部被視為一個整體零件. 為了進行後續組立, 可以使用 Edit - Shape Grouping/Merging 中的 Divide 功能, 將各零件分開. 只是 4.5.1 版將組立件 Divide 後, 所有的零件將擁有絕對的共同座標系(因為可以採用程式方法進行零組件的重組與定位), 但各零件均以共同座標為原點, 對於後續手動組立與操控較為不便, 因此可以再利用 Edit - Shape Reference Frame 中的 relocate to mesh center 將各零件的參考座標從共同的絕對座標系, 轉到各自的零件重心位置.
+另外, 因為採 Solvespace 繪製的鋼球平衡台, 並沒有繪製各機構(四連桿)連接軸, 因此將零組件導入 CoppeliaSim 後, 必須利用夠深的孔, 在 Shape Editor 模式下建立各連接孔的對應軸, 後續才能將轉動軸元件與新建的連接軸位置與方位進行定位.&lt;/p&gt;</content><category term="w14"></category><category term="網誌撰寫"></category></entry></feed>

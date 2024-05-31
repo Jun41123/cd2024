@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>2024 Spring 課程 w12</title>
+  <title>2024 Spring 課程 w13</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -40,9 +40,9 @@
   <![endif]-->
 
 
-    <link href="./41123141_w12.html" rel="canonical" />
+    <link href="./41123141_w14.html" rel="canonical" />
 
-        <meta name="description" content="2024 Spring:利用 NX 1872 繪製鋼球平衡台所需的零組件, 將各分組倉儲設為評分倉儲的子模組, 跨網路操控模擬場景裝置.">
+        <meta name="description" content="2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件">
 
         <meta name="author" content="Jun41123141">
 
@@ -53,15 +53,15 @@
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="41123141協同產生設計實習"/>
-<meta property="og:title" content="2024 Spring 課程 w12"/>
-<meta property="og:description" content="2024 Spring:利用 NX 1872 繪製鋼球平衡台所需的零組件, 將各分組倉儲設為評分倉儲的子模組, 跨網路操控模擬場景裝置."/>
+<meta property="og:title" content="2024 Spring 課程 w13"/>
+<meta property="og:description" content="2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="./41123141_w12.html"/>
+<meta property="og:url" content="./41123141_w14.html"/>
 <meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2024-05-10 20:00:00+08:00"/>
-<meta property="article:modified_time" content="2024-05-17 06:14:09.008044+08:00"/>
+<meta property="article:published_time" content="2024-05-24 20:00:00+08:00"/>
+<meta property="article:modified_time" content="2024-05-31 07:05:21.896063+08:00"/>
 <meta property="article:author" content="./author/jun41123141.html">
-<meta property="article:section" content="w12"/>
+<meta property="article:section" content="w14"/>
 <meta property="article:tag" content="網誌撰寫"/>
 <meta property="og:image" content="./theme/images/post-bg.jpg">
 
@@ -71,18 +71,18 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
-  "name": "2024 Spring 課程 w12",
-  "headline": "2024 Spring 課程 w12",
-  "datePublished": "2024-05-10 20:00:00+08:00",
-  "dateModified": "2024-05-17 06:14:09.008044+08:00",
+  "name": "2024 Spring 課程 w13",
+  "headline": "2024 Spring 課程 w13",
+  "datePublished": "2024-05-24 20:00:00+08:00",
+  "dateModified": "2024-05-31 07:05:21.896063+08:00",
   "author": {
     "@type": "Person",
     "name": "Jun41123141",
     "url": "./author/jun41123141.html"
   },
   "image": "./theme/images/post-bg.jpg",
-  "url": "./41123141_w12.html",
-  "description": "2024 Spring:利用 NX 1872 繪製鋼球平衡台所需的零組件, 將各分組倉儲設為評分倉儲的子模組, 跨網路操控模擬場景裝置."
+  "url": "./41123141_w14.html",
+  "description": "2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件"
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -204,14 +204,14 @@ init_mathjax();
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">2024 Spring 課程 w12</h1>
+        <h1 class="post-title">2024 Spring 課程 w13</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
                 <a href="./author/jun41123141.html">Jun41123141</a>
-            | <time datetime="Fri 10 May 2024">Fri 10 May 2024</time>
+            | <time datetime="Fri 24 May 2024">Fri 24 May 2024</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on Fri 17 May 2024</span>
+            <span class="post-meta"> | Updated on Fri 31 May 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -231,24 +231,41 @@ init_mathjax();
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>2024 Spring:利用 NX 1872 繪製鋼球平衡台所需的零組件, 將各分組倉儲設為評分倉儲的子模組, 跨網路操控模擬場景裝置.</p>
+                <p>2024 Spring:模擬場景建構 ,利用零件 Hole 產生對應 Cylinder 元件 ,在 CoppeliaSim Divide 組立件</p>
 
 
-<h1>任務一: NX零件圖與錄影檔</h1>
-<p><a href="https://nfuedu-my.sharepoint.com/:u:/g/personal/41123141_nfu_edu_tw/EQiYOEP2f3ZEn1ew5LTw7EMBwZx4_NesAAIvNBxF0d680A">錄影過程</a></p>
-<p><a href="https://nfuedu-my.sharepoint.com/:i:/g/personal/41123141_nfu_edu_tw/EUTXTWekycFIjMXfIdBNOkQBAk1aJaBS7Ml1OTTflDuaTQ">完成圖</a></p>
-<p><a href="https://nfuedu-my.sharepoint.com/:i:/g/personal/41123141_nfu_edu_tw/EeKTK5ZoPjFFrX86Bf454_EB94sKrXAs4hLHW9hb6MsLaQ">直徑標示</a></p>
-<p><a href="https://nfuedu-my.sharepoint.com/:i:/g/personal/41123141_nfu_edu_tw/ESqDH0POV-RFmyDGEiSej9YBiIzhnZeFvGQmc-qUTYaoCQ">長度標示</a></p>
-<h1>任務二: 分組倉儲設為評分倉儲的子模組</h1>
-<p>這跟之前再組別架設子模組的方法差不多, 差在評分倉儲是全班性的, 如果要架設子模組前, 要先抓到組別的最新版本, 才能成功用上去.
-先抓取作版本</p>
-<p>git submodule update--init</p>
-<p>git pull</p>
-<p>再來就是架設子模組</p>
-<p>git submodule add https://github.com/mdecd2024/2a-midag7.git g7</p>
-<p>./ acp "加入 g7 子模組" "Jun41123"</p>
-<p>就完成架設</p>
-<h1>任務三</h1>
+<h1>模擬場景建構</h1>
+<p>因為 Solvespace 內建的 Export Scale Factor 為 1:1=mm, 表示 STL 中 export 的數字為 mm, 因此若將 Solvespace 中 120mmx120mm 的 STL 平台, 以 1:1 直接 import 進入 CoppeliaSim, 將會得到 120mx120m 的龐然大物. 若採 Auto Scale (此處會將 120 縮小 100 倍, 也就是採 0.01 作為 Scale) import 進入 CoppeliaSim, 則會採 cm 作為單位, 得到一組 120cmx120cm 的鋼球平衡台.
+至於進入場景後的座標, 以 Solvespace 中的零件繪圖, 其 Y 軸向上, 因此在導入 CoppeliaSim 時, 必須選擇 Y 軸向上.
+若採 Siemens NX 進行零組件繪圖的轉入考量, 與上述 Solvespace 零組件相同.</p>
+<h1>利用零件 Hole 產生對應 Cylinder 元件</h1>
+<p>利用夠深的零件孔壁中的各節點, 可以在 Shape Editor 模式下建立 Cylinder 元件, 其步驟如下:</p>
+<ul>
+<li>
+<p>選擇帶有 Hole (可能必須夠深) 的零件.</p>
+</li>
+<li>
+<p>利用 CoppeliaSim 左側的 Shape Editor 按鈕, 將場景轉換為 Shape Editor 模式.</p>
+</li>
+<li>
+<p>利用滑鼠中鍵滑動, 將場景正對所要生成 Cylinder 元件的孔位置, 然後利用滑鼠中間的滾輪將孔儘量拉近.</p>
+</li>
+<li>
+<p>利用滑鼠左鍵將 Shape Editor 出現的內建視窗, 從 Triangle edit mode, 轉為 Vertex edit mode, 然後左手按住 Shift, 右手滑鼠左鍵按下後, 從左上至</p>
+</li>
+<li>
+<p>右下的位置涵蓋整個孔的位置.</p>
+</li>
+<li>
+<p>將 Shape Editor 模式的 Vertex edit mode 切回 Triangle edit mode, 然後利用 Extract Clinder 功能, 針對上列步驟所選到的 Vertex(圓孔的內壁點座標) 作為依據, 建立一個圓柱體 (Cylinder) 元件.</p>
+</li>
+<li>
+<p>關閉 Shape Editor 內建表單視窗後, 選擇 Yes 或 No 都可完成上述從孔的內壁點座標生成圓柱體的步驟.</p>
+</li>
+</ul>
+<h1>在 CoppeliaSim Divide 組立件</h1>
+<p>由於 CoppeliaSim 4.5.1 rev4 當採 STL 組立件轉入場景後, 其組立件為一體, 也就是全部被視為一個整體零件. 為了進行後續組立, 可以使用 Edit - Shape Grouping/Merging 中的 Divide 功能, 將各零件分開. 只是 4.5.1 版將組立件 Divide 後, 所有的零件將擁有絕對的共同座標系(因為可以採用程式方法進行零組件的重組與定位), 但各零件均以共同座標為原點, 對於後續手動組立與操控較為不便, 因此可以再利用 Edit - Shape Reference Frame 中的 relocate to mesh center 將各零件的參考座標從共同的絕對座標系, 轉到各自的零件重心位置.
+另外, 因為採 Solvespace 繪製的鋼球平衡台, 並沒有繪製各機構(四連桿)連接軸, 因此將零組件導入 CoppeliaSim 後, 必須利用夠深的孔, 在 Shape Editor 模式下建立各連接孔的對應軸, 後續才能將轉動軸元件與新建的連接軸位置與方位進行定位.</p>
             </section>
 
             <section class="post-info">
@@ -262,18 +279,11 @@ init_mathjax();
 
 
                 <aside class="post-nav">
-                    <a class="post-nav-next" href="./41123141_w13.html">
-                        <section class="post-nav-teaser">
-                            <i class="ic ic-arrow-left"></i>
-                                <h2 class="post-nav-title">2024 Spring 課程 w14</h2>
-                            <p class="post-nav-excerpt">2024 Spring: CoppeliaSim 的操作</p>
-                        </section>
-                    </a>
-                    <a class="post-nav-prev" href="./41123141_w11.html">
+                    <a class="post-nav-prev" href="./41123141_w13.html">
                         <section class="post-nav-teaser">
                             <i class="ic ic-arrow-right"></i>
-                                <h2 class="post-nav-title">2024 Spring 課程 w11</h2>
-                            <p class="post-nav-excerpt">2024 Spring 利用上週加入的全班倉儲,在裡面編寫前10週之統整心得,以每組為例.</p>
+                                <h2 class="post-nav-title">2024 Spring 課程 w14</h2>
+                            <p class="post-nav-excerpt">2024 Spring: CoppeliaSim 的操作</p>
                         </section>
                     </a>
                     <div class="clear"></div>
