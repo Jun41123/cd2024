@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w3</title><link href="./" rel="alternate"></link><link href="./feeds/w3.atom.xml" rel="self"></link><id>./</id><updated>2024-05-03T07:50:08+08:00</updated><entry><title>2024 Spring 課程 w3</title><link href="./41123141_w3.html" rel="alternate"></link><published>2024-03-09T20:00:00+08:00</published><updated>2024-05-03T07:50:08+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-03-09:./41123141_w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w3</title><link href="./" rel="alternate"></link><link href="./feeds/w3.atom.xml" rel="self"></link><id>./</id><updated>2024-06-13T17:07:55+08:00</updated><entry><title>2024 Spring 課程 w3</title><link href="./41123141_w3.html" rel="alternate"></link><published>2024-03-09T20:00:00+08:00</published><updated>2024-06-13T17:07:55+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-03-09:./41123141_w3.html</id><summary type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 協同產品設計實習課程教導, 主要說明如何善用 Github Codespaces 與 Gitpod, 以及將組員倉儲設為分組倉儲的子模組, 同時導入 LaTeX 轉 pdf 機制, 啟動期中分組報告的製作.&lt;/p&gt;
 
 
@@ -7,4 +7,7 @@
 &lt;p&gt;如何利用 Github Codespaces 建立, cd2024 課程希望將各分組的組員個人網站, 以 submodule 的方式納入各分組倉儲與網站.
 先 1. &lt;git submodule add 自己的倉儲空格學號&gt;, 2. &lt;git add .&gt; , 3. &lt;git commit -m "add 學號 submodule"&gt; , 4. &amp;lt;最後在 git push&amp;gt; .&lt;/p&gt;
 &lt;h1&gt;期中報告&lt;/h1&gt;
-&lt;p&gt;由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2a-midbgx_report.pdf 的製作.&lt;/p&gt;</content><category term="w3"></category><category term="分組"></category></entry></feed>
+&lt;p&gt;由各組員在其個人的 cd2024 倉儲中, 以 LaTeX 格式分工完成文章的英文與中文翻譯並列資料, 最後在分組網站的 Release 或 downloads 區完成 2a-midbgx_report.pdf 的製作.&lt;/p&gt;
+&lt;p&gt;利用 LaTeX 製作的成品(檔案與程式碼)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/:b:/g/personal/41123141_nfu_edu_tw/ESeDb1r0T75NkVWdC5HqGMwBtfrmOw2_H9KXdM-0dg7nFg"&gt;文章檔案&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nfuedu-my.sharepoint.com/:t:/g/personal/41123141_nfu_edu_tw/EVLO2C53lyFHv2DHG7RjJaUBx7hJQB34n4sPwPwV9_8J1A"&gt;程式碼&lt;/a&gt;&lt;/p&gt;</content><category term="w3"></category><category term="分組"></category></entry></feed>
