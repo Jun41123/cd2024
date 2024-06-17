@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>41123141協同產生設計實習 - w17</title><link href="./" rel="alternate"></link><link href="./feeds/w17.atom.xml" rel="self"></link><id>./</id><updated>2024-06-17T06:38:23+08:00</updated><entry><title>2024 Spring 課程 w17</title><link href="./41123141_w17.html" rel="alternate"></link><published>2024-06-14T20:00:00+08:00</published><updated>2024-06-17T06:38:23+08:00</updated><author><name>Jun41123141</name></author><id>tag:None,2024-06-14:./41123141_w17.html</id><summary type="html">&lt;p&gt;2024 Spring: 完成當週指定的任務之項目一到項目三&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring: 完成當週指定的任務之項目一到項目三&lt;/p&gt;
+
+
+&lt;h1&gt;任務之項目一到項目三&lt;/h1&gt;
+&lt;p&gt;項目1 : 請利用 NX1872, 完成可以參與球賽競技的機器人零件與組立件設計, 過程中請拍攝零組件繪製過程上傳至 yt 後, 在個人靜態網站中新增標題為 "w17", 格式為 H1 的頁面, 嵌入所完成的項目一 Youtube 影片以及所完成的零組件檔案連結後, 將此網頁網址 (個人倉儲連結之版次提交) 提交連結回報至評量回傳表的對應欄位中.&lt;/p&gt;
+&lt;p&gt;項目2 : 請自選上列項目一中某一零件組立過程, 以 NXOpen Python 程式完成組立, 過程中請拍攝 Python Journal 程式組立過程上傳至 Youtube 後, 在 "w17" 頁面中嵌入所完成的項目二 Youtube 影片以及所完成的 Python Journal 程式檔案連結 (請放入 downloads 目錄, 並以 .txt 作為副檔名), 將此網頁網址 (個人倉儲連結之版次提交) 提交連結回報至評量回傳表的對應欄位中.&lt;/p&gt;
+&lt;p&gt;項目3 : 請將所完成的機器人球員放入 CoppeliaSim 運動場景中 (即 https://mde.tw/cd2024/content/index.html 網頁中的 cd2024_footbasketball_field_specification_step2.7z 場景), 讓球員可以由 ZMQ Remote API 程式控制, 執行後按下 w 鍵後球員可向前移動, 按下 s 後球員可向後移動, 過程中請拍攝 Python 程式執行與球員前後移動過程上傳至 Youtube 後, 在 "w17" 頁面中嵌入所完成的項目三 Youtube 影片、場景 .ttt 連結以及所完成的 ZMQ Remote API Python 程式檔案連結 (請放入 downloads 目錄, 並以 .txt 作為副檔名), 將此網頁網址 (個人倉儲連結之版次提交) 提交連結回報至評量回傳表的對應欄位中.&lt;/p&gt;</content><category term="w17"></category><category term="網誌撰寫"></category></entry></feed>
